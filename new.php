@@ -2,13 +2,11 @@
 require("db_connect.php");
 
 if (isset($_POST["submit"])) {
-    // $id = $_POST["id"];
     $surname = $_POST["surname"];
     $first_name = $_POST["firstname"];
     $last_name = $_POST["lastname"];
     $email = $_POST["email"];
     $age = $_POST["age"];
-    // $age = $age *5;
     $password = $_POST["password"];
     $mobile = $_POST["mobile"];
     $select_gender = $_POST["gender"];
@@ -24,7 +22,6 @@ if (isset($_POST["submit"])) {
     }
 }
 ?>
-
 
 <!doctype html>
 <html lang="en">

@@ -64,8 +64,8 @@ require "db_connect.php"
 
 
         <td>
-<button class="btn btn-primary"><a href="update1.php" class="text-light"> update1</a></button>
-<button class="btn btn-danger"><a href="delete1.php" class="text-light"> delete1</a></button>
+<button class="btn btn-primary"><a href="update1.php? updateid='.$id.'" class="text-light"> update1</a></button>
+<button class="btn btn-danger"><a href="delete1.php? deleteid='.$id.'" class="text-light"> delete1</a></button>
 </td>
 
            </tr>';
